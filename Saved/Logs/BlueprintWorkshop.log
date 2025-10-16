@@ -3677,3 +3677,364 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.10.16-17.59.23:647][558]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2025.10.16-17.59.23:647][558]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.10.16-17.59.23:647][558]AssetCheck: /Game/Blueprints/BP_Projectile Validating asset
+[2025.10.16-18.00.27:854][ 61]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.16-18.00.27:863][ 61]LogContentBundle: [Lvl_ThirdPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.10.16-18.00.27:863][ 61]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' started...
+[2025.10.16-18.00.27:864][ 61]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' took 1.225 ms (total: 171.207 ms)
+[2025.10.16-18.00.27:864][ 61]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.16-18.00.27:865][ 61]LogPlayLevel: Display: Creating online subsystem for client :Context_31
+[2025.10.16-18.00.27:869][ 61]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2025.10.16-18.00.27:907][ 62]LogPlayLevel: Creating play world package: /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2025.10.16-18.00.27:918][ 62]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.10.16-18.00.27:921][ 62]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 1.859 ms (total: 33.609 ms)
+[2025.10.16-18.00.27:921][ 62]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013037s)
+[2025.10.16-18.00.27:921][ 62]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson to /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson (0.013102s)
+[2025.10.16-18.00.27:963][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2025.10.16-18.00.27:966][ 62]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2025.10.16-18.00.27:968][ 62]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.10.16-18.00.27:968][ 62]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.10.16-18.00.27:968][ 62]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.10.16-18.00.27:968][ 62]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.10.16-18.00.27:970][ 62]LogWorldPartition: Display: WorldPartition initialize took 2.298 ms (total: 1.04 sec)
+[2025.10.16-18.00.27:970][ 62]LogPlayLevel: PIE: World Init took: (0.004666s)
+[2025.10.16-18.00.27:972][ 62]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2025.10.16-18.00.27:972][ 62]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.16-18.00.27:972][ 62]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.16-18.00.27:972][ 62]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.16-18.00.27:972][ 62]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.16-18.00.27:972][ 62]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.16-18.00.27:972][ 62]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.16-18.00.27:972][ 62]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.16-18.00.27:972][ 62]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.16-18.00.27:972][ 62]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.16-18.00.27:972][ 62]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.16-18.00.27:972][ 62]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.16-18.00.27:975][ 62]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.16-18.00.28:003][ 62]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2025.10.16-18.00.28:003][ 62]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.16-18.00.28:003][ 62]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.16-18.00.28:003][ 62]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.16-18.00.28:004][ 62]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2025.10.16-18.00.28:004][ 62]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2025.10.16-18.00.28:008][ 62]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2025.10.16-18.00.28:008][ 62]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2025.10.16-18.00.28:008][ 62]LogInit: FAudioDevice initialized with ID 17.
+[2025.10.16-18.00.28:008][ 62]LogAudio: Display: Audio Device (ID: 17) registered with world 'Lvl_ThirdPerson'.
+[2025.10.16-18.00.28:008][ 62]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2025.10.16-18.00.28:013][ 62]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.10.16-18.00.28:016][ 62]LogWorld: Bringing World /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson up for play (max tick rate 60) at 2025.10.16-11.00.28
+[2025.10.16-18.00.28:016][ 62]LogWorld: Bringing up level for play took: 0.003591
+[2025.10.16-18.00.28:023][ 62]PIE: Server logged in
+[2025.10.16-18.00.28:025][ 62]PIE: Play in editor total start time 0.163 seconds.
+[2025.10.16-18.00.30:919][220]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Sense!
+[2025.10.16-18.00.30:919][220]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Shoooot
+[2025.10.16-18.00.30:919][220]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] !!!!
+[2025.10.16-18.00.30:920][220]LogBlueprintUserMessages: [BP_Projectile_C_0] Projectile!
+[2025.10.16-18.00.31:033][226]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Sense!
+[2025.10.16-18.00.31:033][226]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Shoooot
+[2025.10.16-18.00.31:033][226]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] !!!!
+[2025.10.16-18.00.31:036][226]LogBlueprintUserMessages: [BP_Projectile_C_1] Projectile!
+[2025.10.16-18.00.31:143][231]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Sense!
+[2025.10.16-18.00.31:143][231]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Shoooot
+[2025.10.16-18.00.31:143][231]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] !!!!
+[2025.10.16-18.00.31:144][231]LogBlueprintUserMessages: [BP_Projectile_C_2] Projectile!
+[2025.10.16-18.00.31:254][237]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Sense!
+[2025.10.16-18.00.31:254][237]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Shoooot
+[2025.10.16-18.00.31:254][237]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] !!!!
+[2025.10.16-18.00.31:255][237]LogBlueprintUserMessages: [BP_Projectile_C_3] Projectile!
+[2025.10.16-18.00.31:376][243]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Sense!
+[2025.10.16-18.00.31:376][243]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Shoooot
+[2025.10.16-18.00.31:376][243]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] !!!!
+[2025.10.16-18.00.31:378][243]LogBlueprintUserMessages: [BP_Projectile_C_4] Projectile!
+[2025.10.16-18.00.31:482][249]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Sense!
+[2025.10.16-18.00.31:482][249]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Shoooot
+[2025.10.16-18.00.31:482][249]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] !!!!
+[2025.10.16-18.00.31:483][249]LogBlueprintUserMessages: [BP_Projectile_C_5] Projectile!
+[2025.10.16-18.00.31:590][255]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Sense!
+[2025.10.16-18.00.31:590][255]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Shoooot
+[2025.10.16-18.00.31:590][255]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] !!!!
+[2025.10.16-18.00.31:592][255]LogBlueprintUserMessages: [BP_Projectile_C_6] Projectile!
+[2025.10.16-18.00.31:698][261]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Sense!
+[2025.10.16-18.00.31:698][261]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Shoooot
+[2025.10.16-18.00.31:698][261]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] !!!!
+[2025.10.16-18.00.31:700][261]LogBlueprintUserMessages: [BP_Projectile_C_7] Projectile!
+[2025.10.16-18.00.31:812][267]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Sense!
+[2025.10.16-18.00.31:812][267]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Shoooot
+[2025.10.16-18.00.31:812][267]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] !!!!
+[2025.10.16-18.00.31:815][267]LogBlueprintUserMessages: [BP_Projectile_C_8] Projectile!
+[2025.10.16-18.00.31:815][267]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Ouch!
+[2025.10.16-18.00.31:815][267]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 98.0
+[2025.10.16-18.00.31:923][273]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Sense!
+[2025.10.16-18.00.31:923][273]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Shoooot
+[2025.10.16-18.00.31:924][273]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] !!!!
+[2025.10.16-18.00.31:926][273]LogBlueprintUserMessages: [BP_Projectile_C_9] Projectile!
+[2025.10.16-18.00.31:927][273]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Ouch!
+[2025.10.16-18.00.31:927][273]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 96.0
+[2025.10.16-18.00.32:038][279]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Sense!
+[2025.10.16-18.00.32:038][279]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Shoooot
+[2025.10.16-18.00.32:038][279]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] !!!!
+[2025.10.16-18.00.32:039][279]LogBlueprintUserMessages: [BP_Projectile_C_10] Projectile!
+[2025.10.16-18.00.32:040][279]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Ouch!
+[2025.10.16-18.00.32:040][279]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 94.0
+[2025.10.16-18.00.32:145][285]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Sense!
+[2025.10.16-18.00.32:145][285]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Shoooot
+[2025.10.16-18.00.32:146][285]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] !!!!
+[2025.10.16-18.00.32:147][285]LogBlueprintUserMessages: [BP_Projectile_C_11] Projectile!
+[2025.10.16-18.00.32:148][285]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Ouch!
+[2025.10.16-18.00.32:148][285]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 92.0
+[2025.10.16-18.00.32:259][291]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Sense!
+[2025.10.16-18.00.32:259][291]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Shoooot
+[2025.10.16-18.00.32:259][291]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] !!!!
+[2025.10.16-18.00.32:259][291]LogBlueprintUserMessages: [BP_Projectile_C_12] Projectile!
+[2025.10.16-18.00.32:261][291]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Ouch!
+[2025.10.16-18.00.32:261][291]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 90.0
+[2025.10.16-18.00.32:374][297]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Sense!
+[2025.10.16-18.00.32:374][297]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Shoooot
+[2025.10.16-18.00.32:374][297]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] !!!!
+[2025.10.16-18.00.32:376][297]LogBlueprintUserMessages: [BP_Projectile_C_13] Projectile!
+[2025.10.16-18.00.32:479][303]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Sense!
+[2025.10.16-18.00.32:479][303]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Shoooot
+[2025.10.16-18.00.32:479][303]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] !!!!
+[2025.10.16-18.00.32:482][303]LogBlueprintUserMessages: [BP_Projectile_C_14] Projectile!
+[2025.10.16-18.00.32:588][309]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Sense!
+[2025.10.16-18.00.32:588][309]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Shoooot
+[2025.10.16-18.00.32:588][309]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] !!!!
+[2025.10.16-18.00.32:590][309]LogBlueprintUserMessages: [BP_Projectile_C_15] Projectile!
+[2025.10.16-18.00.32:698][315]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Sense!
+[2025.10.16-18.00.32:698][315]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Shoooot
+[2025.10.16-18.00.32:698][315]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] !!!!
+[2025.10.16-18.00.32:702][315]LogBlueprintUserMessages: [BP_Projectile_C_16] Projectile!
+[2025.10.16-18.00.32:806][321]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Sense!
+[2025.10.16-18.00.32:806][321]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Shoooot
+[2025.10.16-18.00.32:806][321]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] !!!!
+[2025.10.16-18.00.32:808][321]LogBlueprintUserMessages: [BP_Projectile_C_17] Projectile!
+[2025.10.16-18.00.32:906][327]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Sense!
+[2025.10.16-18.00.32:906][327]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Shoooot
+[2025.10.16-18.00.32:906][327]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] !!!!
+[2025.10.16-18.00.32:907][327]LogBlueprintUserMessages: [BP_Projectile_C_18] Projectile!
+[2025.10.16-18.00.33:013][333]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Sense!
+[2025.10.16-18.00.33:013][333]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Shoooot
+[2025.10.16-18.00.33:013][333]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] !!!!
+[2025.10.16-18.00.33:016][333]LogBlueprintUserMessages: [BP_Projectile_C_19] Projectile!
+[2025.10.16-18.00.33:116][338]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Sense!
+[2025.10.16-18.00.33:116][338]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Shoooot
+[2025.10.16-18.00.33:116][338]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] !!!!
+[2025.10.16-18.00.33:118][338]LogBlueprintUserMessages: [BP_Projectile_C_20] Projectile!
+[2025.10.16-18.00.33:214][343]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Sense!
+[2025.10.16-18.00.33:214][343]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Shoooot
+[2025.10.16-18.00.33:214][343]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] !!!!
+[2025.10.16-18.00.33:217][343]LogBlueprintUserMessages: [BP_Projectile_C_21] Projectile!
+[2025.10.16-18.00.33:334][349]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Sense!
+[2025.10.16-18.00.33:334][349]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Shoooot
+[2025.10.16-18.00.33:334][349]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] !!!!
+[2025.10.16-18.00.33:335][349]LogBlueprintUserMessages: [BP_Projectile_C_22] Projectile!
+[2025.10.16-18.00.33:449][355]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Sense!
+[2025.10.16-18.00.33:449][355]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Shoooot
+[2025.10.16-18.00.33:450][355]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] !!!!
+[2025.10.16-18.00.33:453][355]LogBlueprintUserMessages: [BP_Projectile_C_23] Projectile!
+[2025.10.16-18.00.33:560][361]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Sense!
+[2025.10.16-18.00.33:562][361]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Shoooot
+[2025.10.16-18.00.33:562][361]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] !!!!
+[2025.10.16-18.00.33:563][361]LogBlueprintUserMessages: [BP_Projectile_C_24] Projectile!
+[2025.10.16-18.00.33:664][367]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Sense!
+[2025.10.16-18.00.33:664][367]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Shoooot
+[2025.10.16-18.00.33:664][367]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] !!!!
+[2025.10.16-18.00.33:667][367]LogBlueprintUserMessages: [BP_Projectile_C_25] Projectile!
+[2025.10.16-18.00.33:769][373]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Sense!
+[2025.10.16-18.00.33:769][373]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Shoooot
+[2025.10.16-18.00.33:769][373]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] !!!!
+[2025.10.16-18.00.33:770][373]LogBlueprintUserMessages: [BP_Projectile_C_26] Projectile!
+[2025.10.16-18.00.33:869][379]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Sense!
+[2025.10.16-18.00.33:869][379]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Shoooot
+[2025.10.16-18.00.33:869][379]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] !!!!
+[2025.10.16-18.00.33:872][379]LogBlueprintUserMessages: [BP_Projectile_C_27] Projectile!
+[2025.10.16-18.00.33:971][385]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Sense!
+[2025.10.16-18.00.33:971][385]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Shoooot
+[2025.10.16-18.00.33:971][385]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] !!!!
+[2025.10.16-18.00.33:973][385]LogBlueprintUserMessages: [BP_Projectile_C_28] Projectile!
+[2025.10.16-18.00.34:077][391]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Sense!
+[2025.10.16-18.00.34:077][391]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Shoooot
+[2025.10.16-18.00.34:077][391]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] !!!!
+[2025.10.16-18.00.34:078][391]LogBlueprintUserMessages: [BP_Projectile_C_29] Projectile!
+[2025.10.16-18.00.34:186][397]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Sense!
+[2025.10.16-18.00.34:186][397]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Shoooot
+[2025.10.16-18.00.34:186][397]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] !!!!
+[2025.10.16-18.00.34:189][397]LogBlueprintUserMessages: [BP_Projectile_C_30] Projectile!
+[2025.10.16-18.00.34:287][403]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Sense!
+[2025.10.16-18.00.34:287][403]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Shoooot
+[2025.10.16-18.00.34:287][403]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] !!!!
+[2025.10.16-18.00.34:289][403]LogBlueprintUserMessages: [BP_Projectile_C_31] Projectile!
+[2025.10.16-18.00.34:289][403]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Ouch!
+[2025.10.16-18.00.34:290][403]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 88.0
+[2025.10.16-18.00.34:392][409]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Sense!
+[2025.10.16-18.00.34:392][409]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Shoooot
+[2025.10.16-18.00.34:392][409]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] !!!!
+[2025.10.16-18.00.34:394][409]LogBlueprintUserMessages: [BP_Projectile_C_32] Projectile!
+[2025.10.16-18.00.34:395][409]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Ouch!
+[2025.10.16-18.00.34:395][409]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 86.0
+[2025.10.16-18.00.34:496][415]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Sense!
+[2025.10.16-18.00.34:497][415]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Shoooot
+[2025.10.16-18.00.34:497][415]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] !!!!
+[2025.10.16-18.00.34:498][415]LogBlueprintUserMessages: [BP_Projectile_C_33] Projectile!
+[2025.10.16-18.00.34:498][415]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Ouch!
+[2025.10.16-18.00.34:498][415]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 84.0
+[2025.10.16-18.00.34:598][421]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Sense!
+[2025.10.16-18.00.34:598][421]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Shoooot
+[2025.10.16-18.00.34:598][421]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] !!!!
+[2025.10.16-18.00.34:599][421]LogBlueprintUserMessages: [BP_Projectile_C_34] Projectile!
+[2025.10.16-18.00.34:599][421]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Ouch!
+[2025.10.16-18.00.34:599][421]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 82.0
+[2025.10.16-18.00.34:702][427]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Sense!
+[2025.10.16-18.00.34:702][427]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] Shoooot
+[2025.10.16-18.00.34:702][427]LogBlueprintUserMessages: [BP_Turret_C_UAID_3024A98819BBED9802_1831884720] !!!!
+[2025.10.16-18.00.34:704][427]LogBlueprintUserMessages: [BP_Projectile_C_35] Projectile!
+[2025.10.16-18.00.34:704][427]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Ouch!
+[2025.10.16-18.00.34:704][427]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 80.0
+[2025.10.16-18.00.34:792][428]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.16-18.00.34:793][428]LogWorld: BeginTearingDown for /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2025.10.16-18.00.34:793][428]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2025.10.16-18.00.34:795][428]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.16-18.00.34:795][428]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson
+[2025.10.16-18.00.34:797][428]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.16-18.00.34:804][428]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.16-18.00.34:837][428]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.16-18.00.34:837][428]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2025.10.16-18.00.34:837][428]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17, StreamState=4
+[2025.10.16-18.00.34:840][428]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17, StreamState=2
+[2025.10.16-18.00.34:847][428]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.16-18.00.34:852][428]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2025.10.16-18.00.34:898][429]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2025.10.16-18.00.44:014][908]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2025.10.16-18.00.44:496][929]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.16-18.00.44:561][929]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/BP_Projectile] ([2] browsable assets)...
+[2025.10.16-18.00.44:640][929]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Projectile.BP_Projectile]
+[2025.10.16-18.00.44:640][929]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Projectile]
+[2025.10.16-18.00.44:640][929]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Projectile" FILE="../../../../../../Users/owner/Documents/Unreal Projects/BlueprintWorkshop/Content/Blueprints/BP_Projectile.uasset" SILENT=true
+[2025.10.16-18.00.44:655][929]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Projectile
+[2025.10.16-18.00.44:656][929]LogSavePackage: Moving '../../../../../../Users/owner/Documents/Unreal Projects/BlueprintWorkshop/Saved/BP_ProjectileF824E05C44E6F50BC08F93BA9BCD712F.tmp' to '../../../../../../Users/owner/Documents/Unreal Projects/BlueprintWorkshop/Content/Blueprints/BP_Projectile.uasset'
+[2025.10.16-18.00.44:671][929]LogFileHelpers: InternalPromptForCheckoutAndSave took 174.307 ms (total: 3.79 sec)
+[2025.10.16-18.00.44:747][929]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.16-18.00.44:747][929]LogContentValidation: Enabled validators:
+[2025.10.16-18.00.44:747][929]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.16-18.00.44:747][929]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.16-18.00.44:747][929]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.16-18.00.44:747][929]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.16-18.00.44:747][929]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.16-18.00.44:747][929]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.16-18.00.44:747][929]AssetCheck: /Game/Blueprints/BP_Projectile Validating asset
+[2025.10.16-18.01.01:140][ 92]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2025.10.16-18.01.02:394][ 92]LogSlate: Window 'Save Content' being destroyed
+[2025.10.16-18.01.02:412][ 92]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.16-18.01.02:524][ 92]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/NA/BD489EM808FQP1G882RFNO
+[2025.10.16-18.01.02:524][ 92]LogSavePackage: Moving '../../../../../../Users/owner/Documents/Unreal Projects/BlueprintWorkshop/Saved/BD489EM808FQP1G882RFNOF794CFE24EF3BB5447E7B1B61F1B0DAF.tmp' to '../../../../../../Users/owner/Documents/Unreal Projects/BlueprintWorkshop/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/NA/BD489EM808FQP1G882RFNO.uasset'
+[2025.10.16-18.01.02:555][ 92]LogFileHelpers: InternalPromptForCheckoutAndSave took 142.871 ms (total: 3.94 sec)
+[2025.10.16-18.01.02:618][ 92]LogStall: Shutdown...
+[2025.10.16-18.01.02:619][ 92]LogStall: Shutdown complete.
+[2025.10.16-18.01.02:690][ 92]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2025.10.16-18.01.02:690][ 92]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.16-18.01.02:837][ 92]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.10.16-18.01.02:837][ 92]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2025.10.16-18.01.02:837][ 92]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.16-18.01.02:929][ 92]LogSlate: Window 'BlueprintWorkshop - Unreal Editor' being destroyed
+[2025.10.16-18.01.03:569][ 92]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.16-18.01.03:569][ 92]LogContentValidation: Enabled validators:
+[2025.10.16-18.01.03:569][ 92]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.16-18.01.03:569][ 92]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.16-18.01.03:570][ 92]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.16-18.01.03:570][ 92]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.16-18.01.03:570][ 92]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.16-18.01.03:570][ 92]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.16-18.01.03:571][ 92]AssetCheck: /Game/ThirdPerson/Lvl_ThirdPerson Validating asset
+[2025.10.16-18.01.03:716][ 92]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2025.10.16-18.01.03:729][ 92]Cmd: QUIT_EDITOR
+[2025.10.16-18.01.03:730][ 92]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.10.16-18.01.03:730][ 92]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/owner/Documents/Unreal Projects/BlueprintWorkshop/Saved/SourceControl/UncontrolledChangelists.json
+[2025.10.16-18.01.03:744][ 93]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.10.16-18.01.03:749][ 93]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.10.16-18.01.03:750][ 93]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.10.16-18.01.03:762][ 93]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2025.10.16-18.01.03:763][ 93]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.16-18.01.03:763][ 93]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson
+[2025.10.16-18.01.03:818][ 93]LogTedsSettings: UTedsSettingsEditorSubsystem::Deinitialize
+[2025.10.16-18.01.03:820][ 93]LogStylusInput: Shutting down StylusInput subsystem.
+[2025.10.16-18.01.03:843][ 93]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.10.16-18.01.03:880][ 93]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2025.10.16-18.01.03:880][ 93]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.16-18.01.03:884][ 93]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2025.10.16-18.01.03:884][ 93]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.16-18.01.03:888][ 93]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2025.10.16-18.01.03:888][ 93]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.16-18.01.03:892][ 93]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2025.10.16-18.01.03:892][ 93]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.16-18.01.03:895][ 93]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.10.16-18.01.03:896][ 93]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.16-18.01.03:899][ 93]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.10.16-18.01.03:899][ 93]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.16-18.01.03:902][ 93]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.10.16-18.01.03:904][ 93]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.16-18.01.03:915][ 93]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2025.10.16-18.01.03:915][ 93]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.16-18.01.03:919][ 93]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2025.10.16-18.01.03:919][ 93]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.16-18.01.03:942][ 93]LogRuntimeTelemetry: Recording EnginePreExit events
+[2025.10.16-18.01.03:943][ 93]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.10.16-18.01.03:960][ 93]LogAnalytics: Display: [UEEditor.Rocket.Release] AnalyticsET::EndSession
+[2025.10.16-18.01.04:083][ 93]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.10.16-18.01.04:083][ 93]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.10.16-18.01.04:083][ 93]LogAudio: Display: Audio Device unregistered from world 'Lvl_ThirdPerson'.
+[2025.10.16-18.01.04:084][ 93]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.10.16-18.01.04:084][ 93]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=4
+[2025.10.16-18.01.04:091][ 93]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=2
+[2025.10.16-18.01.04:240][ 93]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.10.16-18.01.04:241][ 93]LogAudio: Display: Audio Device Manager Shutdown
+[2025.10.16-18.01.04:245][ 93]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2025.10.16-18.01.04:256][ 93]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.10.16-18.01.04:258][ 93]LogExit: Preparing to exit.
+[2025.10.16-18.01.04:366][ 93]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2025.10.16-18.01.04:369][ 93]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.16-18.01.04:369][ 93]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.16-18.01.04:374][ 93]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_null_above_selected_PY.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.16-18.01.04:375][ 93]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.16-18.01.04:375][ 93]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.16-18.01.04:375][ 93]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.16-18.01.04:375][ 93]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.16-18.01.04:375][ 93]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.16-18.01.04:375][ 93]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.16-18.01.04:375][ 93]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.16-18.01.04:375][ 93]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.16-18.01.04:375][ 93]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.16-18.01.04:375][ 93]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.16-18.01.04:375][ 93]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.16-18.01.04:375][ 93]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.16-18.01.04:375][ 93]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.16-18.01.04:375][ 93]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.16-18.01.04:375][ 93]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.16-18.01.04:375][ 93]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/set_bone_reference_pose_PY.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.16-18.01.04:375][ 93]LogPython: Display: Object '/ControlRig/Python/ControlRigWorkflows/workflow_fbik_import_ik_rig_PY.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.16-18.01.04:375][ 93]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.16-18.01.05:029][ 93]LogEditorDataStorage: Deinitializing
+[2025.10.16-18.01.05:589][ 93]LogDirectoryWatcher: Display: Refresh of ReadDirectoryChangesW failed. GetLastError code [6] Handle [FFFFFFFFFFFFFFFF], Path [C:/Users/owner/Documents/Unreal Projects/BlueprintWorkshop/Content/]. Aborting watch request...
+[2025.10.16-18.01.05:721][ 93]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.10.16-18.01.06:120][ 93]LogExit: Editor shut down
+[2025.10.16-18.01.06:155][ 93]LogExit: Transaction tracking system shut down
+[2025.10.16-18.01.07:634][ 93]LogExit: Object subsystem successfully closed.
+[2025.10.16-18.01.07:724][ 93]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.10.16-18.01.08:518][ 93]LogMemoryProfiler: Shutdown
+[2025.10.16-18.01.08:520][ 93]LogNetworkingProfiler: Shutdown
+[2025.10.16-18.01.08:520][ 93]LoadingProfiler: Shutdown
+[2025.10.16-18.01.08:521][ 93]LogTimingProfiler: Shutdown
+[2025.10.16-18.01.08:536][ 93]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2025.10.16-18.01.08:537][ 93]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2025.10.16-18.01.10:160][ 93]LogChaosDD: Chaos Debug Draw Shutdown
+[2025.10.16-18.01.10:177][ 93]LogNFORDenoise: NFORDenoise function shutting down
+[2025.10.16-18.01.10:183][ 93]RenderDocPlugin: plugin has been unloaded.
+[2025.10.16-18.01.10:210][ 93]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2025.10.16-18.01.10:211][ 93]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC32C515A-4754-B0CB-35C5-29849A8F6E3A%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=d1f5a78d4774bb25396a47845d6c1d17%7C4bca225a79ac4045b8c67a4c8301ad3f%7Cdc8fa004-8549-4c71-bddf-04f840a9a239&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.10.16-18.01.10:832][ 93]LogEOSShared: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2025.10.16-18.01.10:842][ 93]LogXGEController: Cleaning working directory: C:/Users/owner/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2025.10.16-18.01.10:885][ 93]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2025.10.16-18.01.10:885][ 93]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2025.10.16-18.01.10:888][ 93]LogPakFile: Destroying PakPlatformFile
+[2025.10.16-18.01.11:387][ 93]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.10.16-18.01.11:434][ 93]LogExit: Exiting.
+[2025.10.16-18.01.11:509][ 93]Log file closed, 10/16/25 11:01:11
